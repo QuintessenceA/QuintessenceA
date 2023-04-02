@@ -288,7 +288,7 @@ body {
 }
 .el:nth-child(2) .el__bg:before {
   transition-delay: 0.1s;
-  background-image: url("https://media.discordapp.net/attachments/1091753504693026826/1091753729163796571/1677387476552.jpg");
+  background-image: url("https://media.discordapp.net/attachments/1091753504693026826/1091757873207464076/1676435468104.jpg");
 }
 .el:nth-child(3) {
   transform: translate3d(210.4166666667%, 0, 0);
@@ -347,6 +347,16 @@ body {
   transition-delay: 0.4s;
   background-image: url("https://media.discordapp.net/attachments/1091753504693026826/1091757872939016333/1676610346018.jpg");
 }
+.el:nth-child(6) .el__inner {
+  transition-delay: 0s;
+}
+.el:nth-child(6) .el__bg {
+  transform: translate3d(0%, 0, 0);
+}
+.el:nth-child(6) .el__bg:before {
+  transition-delay: 0s;
+  background-image: url("https://media.discordapp.net/attachments/1091753504693026826/1091757873484283966/1676434795929.jpg");
+} 
 .el:hover .el__bg:after {
   opacity: 0;
 }
